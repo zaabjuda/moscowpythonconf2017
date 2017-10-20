@@ -1,0 +1,12 @@
+[package]
+name = "addList"
+version = "0.1.0"
+authors = ["Chuck Norris <chack@my_world.me>"]
+
+[dependencies.pyo3]
+version = "0.2.0"
+default-features = false
+
+[lib]
+crate-type = ["cdylib"]
+name = "addList"
